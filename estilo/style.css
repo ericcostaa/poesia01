@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Karma:wght@400;700&display=swap');
+
+
+* {
+
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+ :root{
+
+    --fonte1: 'Karma', serif;
+ }
+
+
+body{
+
+    font-size: 100%;
+    background-image: linear-gradient(30deg, #13F5AD, #2D755E);
+
+    text-align: center;
+    
+}
+
+main{
+
+    background-color: #ffffff;
+    min-width: 300px;
+    max-width: 1000px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0px 0px 0px;
+    padding-bottom: 0px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.486);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: var(--fonte1);
+
+
+    
+}
+
+header{
+
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+    margin: 0px;
+    border: 0px;
+
+
+}
+
+header > h1 {
+
+    text-align: center;
+    font-weight: bolder;
+    font-size: 5em;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    font-family: var(--fonte1);
+    font-weight: bold;
+
+}
+
+header > p {
+
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    color:white;
+    font-family: var(--fonte1);
+    
+
+}
+
+a{
+
+    text-decoration: none;
+    color: white;
+}
+
+ a:hover{
+
+    color: rgb(19, 197, 197);
+    text-decoration: underline;
+ }
+
+main{
+
+    background-color: white;
+    text-align: justify;
+    margin-bottom: 0px;
+    font-family: var(--fonte1);
+
+}
+
+section{
+
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 3.5vw;
+}
+
+
+.img {   
+    
+    padding: 5px;
+    background-color: rgba(39, 36, 36, 0.404);
+    color: #ffffff;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.295);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.img > p{
+
+    background-color: rgba(0, 0, 0, 0.534);
+}
+ 
+ #estrela{
+
+    background-image: url(/imagens/estrela.jpg);
+    color: white;
+    background-position: left bottom;
+}
+ #mulher{
+
+    background-image: url(/imagens/mulher.jpg);
+    color: #ffffff;
+    background-position: center center;
+}
+
+
+
+footer {
+
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-color: black ;
+    border-top: 0.3px solid;
+    font-family: var(--fonte1);
+
+
+}
