@@ -20,7 +20,7 @@
 body{
 
     font-size: 100%;
-    background-image: linear-gradient(30deg, #b8e0d3, #f5f8f7);
+    background-image: linear-gradient(30deg, #9dcebe, #f5f8f7);
 
     text-align: center;
     
@@ -47,7 +47,7 @@ main{
 
 header{
 
-    background-color: black;
+    background-color: rgb(2, 43, 32);
     color: white;
     text-decoration: none;
     padding: 25px;
@@ -145,7 +145,7 @@ section{
 
 footer {
 
-    background-color: black;
+    background-color: rgb(2, 43, 32);
     color: white;
     text-align: center;
     padding: 10px;
