@@ -130,13 +130,13 @@ section{
  
  #estrela{
 
-    background-image: url(/imagens/estrela.jpg);
+    background-image: url(../imagens/estrela.jpg);
     color: white;
     background-position: left bottom;
 }
  #mulher{
 
-    background-image: url(/imagens/mulher.jpg);
+    background-image: url(../imagens/mulher.jpg);
     color: #ffffff;
     background-position: center center;
 }
